@@ -1,0 +1,59 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+	 font-family:  'Montserrat', sans-serif;
+	 background: #fff;
+	 
+}
+
+.content-wrap {
+	padding: 0 15px;
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.header-logo img {
+	height: 60px;
+	margin: 10px 0;
+}
+
+.header-logo img {
+	height: 40px;
+}
+
+.header-image img {
+	width: 100%;
+}
+
+.trust-image img {
+	height: 50px;
+}
+
+
+
+.myButton {
+	box-shadow: 3px 4px 0px 0px #8a2a21;	
+	background-color:#FF6527;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: Montserrat;
+	font-weight: bolder;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.myButton:hover {
+	
+	background-color:#f24437;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
