@@ -68,15 +68,16 @@ body {
 
 .benefit-box{
 	width:100px;
-	margin:0 auto;
+	margin:30px auto;
 
-}
+	}
 
 .benefit-box h2{
 	font-weight:bolder;
 }
 
 .benefit-box p{
+	margin:0 auto;
 	width:200px;
 	text-align:center;
 }
@@ -91,26 +92,40 @@ body {
 
 
 
+.button-wrap {
+	margin:0 auto 40px auto;
+
+    position: relative;
+}
 .button {
-	box-shadow: 3px 4px 0px 0px #8a2a21;	
-	background-color:#FF6527;
-	border-radius:18px;
-	border:1px solid #d02718;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family: Montserrat;
-	font-weight: bolder;
-	font-size:17px;
-	padding:7px 25px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #810e05;
+    background-color:#FF6527;
+    border-radius:18px;
+    border:1px solid #d02718;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size:17px;
+    padding:7px 25px;
+    text-decoration:none;
+    
 }
 .button:hover {
-	background-color:#f24437;
+    
+    background-color:#f24437;
 }
-
 .button:active {
-	position:relative;
-	top:1px;
+    position:relative;
+    top:1px;
+}
+.button-line {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    height: 31px;
+    width: 152px;
+    border-radius:18px;
+    border:3px solid #22437E;
+    z-index: -1;
 }
