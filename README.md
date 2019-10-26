@@ -13,7 +13,7 @@ Este proyecto fue de desarrollado en un día de Hackaton de Ironhack en Barccelo
 
 ### DEPLOY
 
-- [Deploy](https://swiftpack-app.github.io/swiftpack-landing/index.html)
+- [Deploy](https://swiftpack-app.github.io/swiftpack-landing/)
 
 ### SLIDES
 
